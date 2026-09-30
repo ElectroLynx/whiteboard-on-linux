@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Whiteboard
+Comment=Tableau blanc moderne pour dessiner, écrire et créer des formes
+Exec=__WHITEBOARD_EXEC__
+Icon=applications-graphics
+Terminal=false
+Categories=Graphics;2DGraphics;
+StartupNotify=true

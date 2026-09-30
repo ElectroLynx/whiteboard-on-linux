@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers créés par l'application
+*.whiteboard.json
+
+# Artefacts de distribution
+dist/
+build/
+*.egg-info/
