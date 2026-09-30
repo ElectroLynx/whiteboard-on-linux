@@ -12,7 +12,10 @@ from whiteboard.application import WhiteboardApplication
 
 def main() -> int:
     app = WhiteboardApplication()
-    return app.run(sys.argv)
+    try:
+        return app.run(sys.argv)
+    except KeyboardInterrupt:
+        return 0
 
 
 if __name__ == "__main__":
